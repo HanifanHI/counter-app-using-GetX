@@ -17,7 +17,10 @@ class HomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Obx(
-            () => Text('Number ${controller.counter}'),
+            () => Text(
+              'Number ${controller.counter}',
+              style: TextStyle(color: Colors.amber[900]),
+            ),
           ),
           const SizedBox(
             height: 30,
@@ -31,7 +34,7 @@ class HomePage extends StatelessWidget {
                   Icons.remove,
                 ),
               ),
-              OutlinedButton(
+              ElevatedButton(
                 onPressed: () => controller.increment(),
                 child: const Icon(
                   Icons.add,

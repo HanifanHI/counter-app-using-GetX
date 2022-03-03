@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              OutlinedButton(
+              ElevatedButton(
                 onPressed: () => controller.decrement(),
                 child: const Icon(
                   Icons.remove,

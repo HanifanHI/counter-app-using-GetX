@@ -48,7 +48,7 @@ app.*.map.json
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,flutter
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,flutter
 
-### Flutter ###
+### Flutter gitignore ###
 # Flutter/Dart/Pub related
 **/doc/api/
 .dart_tool/
